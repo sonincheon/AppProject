@@ -19,4 +19,4 @@ Android Studio 사용
 ## 3. Axios를 사용하여 오픈소스로 데이터 출력하기 (뉴스)
 `Axios`를 사용하여 외부 뉴스 API에서 데이터를 가져와 화면에 출력하는 예제입니다. 뉴스 제목, 설명, 이미지 등을 리스트로 보여주고, 클릭 시 해당 뉴스 기사로 이동합니다.
 
-![Axios와 뉴스 API 예제](https://github.com/sonincheon/AppProject/assets/142462485/d08158c6-d249-415b-aa32-0202b344fcf9)
+![Axios와 뉴스 API 예제](https://github.com/sonincheon/AppProject/assets/142462485/35697d16-9d93-41e4-b830-a0cf665ed8c3)
