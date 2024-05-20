@@ -20,3 +20,12 @@ Android Studio 사용
 `Axios`를 사용하여 외부 뉴스 API에서 데이터를 가져와 화면에 출력하는 예제입니다. 뉴스 제목, 설명, 이미지 등을 리스트로 보여주고, 클릭 시 해당 뉴스 기사로 이동합니다.
 
 ![Axios와 뉴스 API 예제](https://github.com/sonincheon/AppProject/assets/142462485/35697d16-9d93-41e4-b830-a0cf665ed8c3)
+
+# 리액트 네이티브 개발 연습 2일차
+
+## 1. 투두리스트만들기
+
+ 기본적인 `CRUD` 및 `AsyncStorage`를 이용한 데이터유지
+
+![캡처](https://github.com/sonincheon/PracticingReactNative/assets/142462485/51f143fe-953c-421f-a523-26bb77a16e9b)
+![캡처1](https://github.com/sonincheon/PracticingReactNative/assets/142462485/3a6642e0-70d3-4448-9c54-36126b15aecd)
