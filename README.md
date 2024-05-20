@@ -1,79 +1,22 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 리액트 네이티브 개발 연습 1일차
 
-# Getting Started
+리액트 네이티브를 사용하여 기본적인 상태 관리 및 외부 API 호출 연습을 진행합니다.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+실행: `yarn android`
 
-## Step 1: Start the Metro Server
+Android Studio 사용
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## 1. `useState` 이용
+`useState`를 사용하여 상태를 관리하는 기본 예제입니다. 버튼을 클릭하여 상태를 업데이트하고, 업데이트된 상태를 화면에 출력합니다.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+![useState 예제](https://github.com/sonincheon/AppProject/assets/142462485/d08158c6-d249-415b-aa32-0202b344fcf9)
 
-```bash
-# using npm
-npm start
+## 2. `useState`와 `props`를 이용하여 출력해보기
+`useState`를 사용하여 상태를 관리하고, `props`를 통해 자식 컴포넌트로 상태를 전달하여 출력하는 예제입니다. 상태 변경은 부모 컴포넌트에서 수행되며, 자식 컴포넌트는 상태를 출력합니다.
 
-# OR using Yarn
-yarn start
-```
+![useState와 props 예제](https://github.com/sonincheon/AppProject/assets/142462485/2fcb2f59-ecc5-4e76-85df-2da28e79e307)
 
-## Step 2: Start your Application
+## 3. Axios를 사용하여 오픈소스로 데이터 출력하기 (뉴스)
+`Axios`를 사용하여 외부 뉴스 API에서 데이터를 가져와 화면에 출력하는 예제입니다. 뉴스 제목, 설명, 이미지 등을 리스트로 보여주고, 클릭 시 해당 뉴스 기사로 이동합니다.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+![Axios와 뉴스 API 예제](https://github.com/sonincheon/AppProject/assets/142462485/35697d16-9d93-41e4-b830-a0cf665ed8c3)
